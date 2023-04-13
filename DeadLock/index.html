@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Banker's Algorithm</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Banker's DeadLock Detection</h1>
+        <form id="initial-submit" class="form">
+            <div class="form-group">
+                <label for="processes">Processes</label>
+                <input type="number" class="form-control" id="processes" placeholder="Enter Number" name="processes">
+                <small  class="form-text text-muted">Number of processes on the system</small>
+              </div>
+              <div class="form-group">
+                <label for="resources">Resources</label>
+                <input type="number" class="form-control" id="resources" placeholder="Enter Number" name="resources">
+                <small  class="form-text text-muted">Number of resources for each process</small>
+              </div>
+
+              <button type="submit" class="btn btn-primary initial-btn">Submit</button>
+        </form>
+
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
